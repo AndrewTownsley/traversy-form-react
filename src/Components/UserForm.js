@@ -42,6 +42,7 @@ export class UserForm extends Component {
     
       switch(step) {
         case 1: 
+        const { values } = this.props;
           return(
             <FormUserDetails 
               nextStep = {this.nextStep}
